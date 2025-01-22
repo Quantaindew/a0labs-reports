@@ -141,20 +141,10 @@
 
 Gas Fees (Most Economical to Highest)
 
-Mayan (~0.016 USDC)
-Squid (0.023358 USDC)
-LayerSwap (0.075528 USDC)
-Defiway (0.159 USDC)
-
-
-
-## Overall Winner: LayerSwap
-Despite not being the fastest or having the most extensive token support, LayerSwap emerges as the overall winner due to its exceptional balance of:
-- User-friendly interface
-- Comprehensive information display
-- Reliable performance
-- Reasonable fees
-- Newcomer-friendly approach
+1. Mayan (~0.016 USDC)
+2. Squid (0.023358 USDC)
+3. LayerSwap (0.075528 USDC)
+4. Defiway (0.159 USDC)
 
 ## What Makes an Effective Crypto Bridge
 
