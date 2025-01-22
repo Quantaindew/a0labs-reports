@@ -5,8 +5,7 @@
 2. Transaction Time - Speed of bridge transfers
 3. User Interface - Design and functionality
 4. Gas Fees - Cost effectiveness
-5. Centralization Status - DeFi vs. centralized approach
-6. Information and Live Updates - Transaction transparency
+5. Information and Live Updates - Transaction transparency
 
 ## Bridge Analysis
 
