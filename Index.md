@@ -14,23 +14,12 @@
 - **Strengths**
   - Simple, intuitive user interface
   - Comprehensive progress tracking
-  - Automatic gas refueling feature
+  - Gas fee refueling feature optional to ensure availibilty after bridging.
   - Accurate time estimates (often completes before estimated time)
 - **Limitations**
   - Limited token selection (mainly native tokens, USDC, USDT)
 - **Speed**: Moderate to slow
 - **Fee Structure**: Reasonable
-
-### Synapse
-- **Strengths**
-  - Automatic native token conversion for gas fees
-  - Integrated gas fee management
-- **Limitations**
-  - Inconsistent route availability
-  - Slower transaction speeds
-- **Notable Feature**: Built-in gas token conversion
-- **Speed**: Slow
-- **User Experience**: Mixed
 
 ### Portal (Wormhole-powered)
 - **Strengths**
@@ -41,7 +30,6 @@
 - **Solana Experience**
   - Higher gas fees
   - Quick estimated completion times
-  - Actual performance better than estimates
 - **Speed**: Fast
 - **Fee Structure**: Competitive for EVM, higher for Solana
 
@@ -49,8 +37,7 @@
 - **Strengths**
   - Fastest transaction speeds in testing
   - Clean user interface
-  - Refueling capability
-  - Destination gas management
+  - Refueling capability to ensure gas fee avalibility after bridging the token.
 - **Limitations**
   - Wallet connectivity issues
 - **Speed**: Very Fast
