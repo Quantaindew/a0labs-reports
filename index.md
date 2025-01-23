@@ -114,7 +114,8 @@ Solana bridging remains a work in progress across platforms, with common challen
 7. Stargate 
 8. Squid 
 
-### Transaction Speed (Can be a subjective experince for different chain speeds and different demand times. Overall, speeds were tested by bridging usdc from Bnb chain to polygon) 
+### Transaction Speed 
+(Can be a subjective experince for different chain speeds and different demand times. Overall, speeds were tested by bridging usdc from Bnb chain to polygon) 
 1. Mayan  
 2. Orbiter Finance 
 3. Portal 
@@ -135,17 +136,17 @@ Solana bridging remains a work in progress across platforms, with common challen
 8. Portal 
 
 ### Gas Fees (Most Economical to Highest)
+0.AO Zk bridge Bridge:Lowest fees among all the bridges tested. Amounts to basically nothing. 
 1. Mayan (~0.016 USDC) 
 2. Squid (0.023358 USDC) 
 3. LayerSwap (0.075528 USDC) 
 4. Defiway (0.159 USDC)
-5. AO Zk bridge Bridge:Lowest fees among all the bridges tested. Amounts to basically nothing. 
-
+ 
 ---
 
 ## What made the above bridges an Effective Crypto Bridge
 
-Based on the analysis, an effective crypto bridge should
+Based on the analysis, an effective crypto bridge should:
 
 1. **Prioritize User Experience**
    - Clear, intuitive interface 
