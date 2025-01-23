@@ -1,15 +1,5 @@
 # Comprehensive Analysis of Cryptocurrency Bridges
 
-## Evaluation Criteria
-1. **Simplicity** - Ease of use and accessibility 
-2. **Transaction Time** - Speed of bridge transfer 
-3. **User Interface** - Design and functionality 
-4. **Gas Fees** - Cost effectiveness 
-5. **Information and Live Updates** - Transaction transparency 
-6. **Security & Privacy** - Use of advanced cryptographic methods 
-
----
-
 ## Bridge Analysis
 
 ### [LayerSwap](https://layerswap.io/)
@@ -24,23 +14,22 @@
 
 ### [Portal (Wormhole-powered)](https://www.portalbridge.com/)
 - **Strengths**
-  - Very efficient for EVM chains 
-  - Fast transaction speeds
+  - Fast transaction speeds for EVM L2 chains 
   - Good chain and token compatibility 
   - Cost-effective, especially for BSC 
 - **Solana Experience**
   - Higher gas fees compared to LayerSwap 
   - Quick estimated completion times 
 - **Speed**: Fast 
-- **Fee Structure**: Competitive for EVM, higher for Solana 
+- **Fee Structure**: Competitive for EVM L2 chains, higher for Solana 
 
 ### [Mayan (Wormhole-powered)](https://mayan.finance/)
 - **Strengths**
-  - Fastest transaction speeds in testing 
-  - Clean user interface 
+  - Fastest transaction speeds while testing all bridges
+  - Clean user interface minimal design
   - Refueling capability to ensure gas fee availability after bridging the token 
 - **Limitations**
-  - Wallet connectivity issues 
+  - Wallet connectivity issues with solana
 - **Speed**: Very Fast 
 - **Overall Experience**: Works for what it says 
 
@@ -51,15 +40,14 @@
 - **Limitations**
   - Limited network support (mainly ETH and Polygon) 
 - **Speed**: Good 
-- **User Experience**: Polished 
+- **User Experience**: Polished, simple to use but does not offer enough bridging options
 
 ### [Orbiter Finance](https://orbiter.finance/)
 - **Strengths**
-  - Extensive network coverage 
-  - Fast transaction speeds 
+  - Extensive network coverage allowing a dozens of chains and tokens making it a great experience to bridge anything
 - **Limitations**
   - Highest gas fees among tested bridges 
-- **Speed**: Fast 
+- **Speed**: One of the fastest among the tested bridges
 
 ### [Squid Bridge](https://app.squidrouter.com/)
 - **Strengths**
@@ -68,7 +56,7 @@
   - Engaging design with animations 
 - **Limitations**
   - Buggy UI elements 
-  - Interface needs refinement 
+  - Interface needs refinement but overall it is intuitive, functional and info about transaction status is displayed very well as it progresses
 - **Speed**: Variable 
 
 ### [Stargate](https://stargate.finance/bridge)
@@ -85,7 +73,7 @@
 
 ### [Defiway](https://defiway.com/bridge/)
 - **Strengths**
-  - Clean, functional UI 
+  - Clean, functional UI to just get the job done with ease
   - Good network availability 
   - Refueling capability to ensure gas fee availability 
 - **Limitations**
@@ -97,7 +85,7 @@
 
 ## Special Note on Solana Integration of the most popular bridges above.
 Solana bridging remains a work in progress across platforms, with common challenges including:
-- Wallet compatibility issues (especially with Solflare)
+- Wallet compatibility issues (especially with Solflare in Mayan Finance)
 - Inconsistent user experience
 - Limited wallet support majorly solved by using phantom but a bad experience for users of wallets other than solflare.
 
@@ -111,55 +99,54 @@ Solana bridging remains a work in progress across platforms, with common challen
 - **Limitations**
   - Proof generation may add marginal latency for complex transactions 
 - **Speed**: Fast
-- **Security**: Highest (ZK-proof validated) 
+- **Security**: Highest (ZK-proof validated) making it the most secure bridge tested
 
 ---
 
 ## Rankings
 
-### Simplicity
+### Simplicity of swapping your tokens on the get go.
 1. LayerSwap 
 2. Hop 
-3. Portal 
-4. Defiway 
-5. Mayan 
-6. Stargate 
-7. Squid 
+3. Portal
+4. A0 Zk bridge
+5. Defiway 
+6. Mayan 
+7. Stargate 
+8. Squid 
 
-### Transaction Speed
-1. Mayan 
+### Transaction Speed (Can be a subjective experince for different chain speeds and different demand times. Overall, speeds were tested by bridging usdc from Bnb chain to polygon) 
+1. Mayan  
 2. Orbiter Finance 
 3. Portal 
-4. Defiway 
-5. LayerSwap 
+4. LayerSwap 
+5. Defiway  
 6. Squid 
-7. Stargate 
+7. Stargate
+8. A0 Zk bridge 
 
 ### User Interface (Based on functionality, ease of use and design)
-1. LayerSwap 
-2. Stargate 
-3. Defiway 
-4. Squid 
-5. Hop 
-6. Mayan
-7. Portal 
+1. LayerSwap
+2. A0 Zk bridge
+3. Stargate 
+4. Defiway 
+5. Squid 
+6. Hop 
+7. Mayan
+8. Portal 
 
 ### Gas Fees (Most Economical to Highest)
 1. Mayan (~0.016 USDC) 
 2. Squid (0.023358 USDC) 
 3. LayerSwap (0.075528 USDC) 
-4. Defiway (0.159 USDC) 
-
-### Security & Privacy
-1. A0 Zero Knowledge EVM Bridge (ZK proofs) 
-Eliminating Trust Assumptions: No validators, no multisig—just math.
-Enabling Private Cross-Chain Interactions: A rarity in today’s transparent bridges.
+4. Defiway (0.159 USDC)
+5. AO Zk bridge Bridge:Lowest fees among all the bridges tested. Amounts to basically nothing. 
 
 ---
 
-## What Makes an Effective Crypto Bridge
+## What made the above bridges an Effective Crypto Bridge
 
-Based on the analysis, an effective crypto bridge should:
+Based on the analysis, an effective crypto bridge should
 
 1. **Prioritize User Experience**
    - Clear, intuitive interface 
