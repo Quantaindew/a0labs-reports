@@ -27,7 +27,7 @@
   - Good chain and token compatibility
   - Cost-effective, especially for BSC
 - **Solana Experience**
-  - Higher gas fees
+  - Higher gas fees compared to layerswap
   - Quick estimated completion times
 - **Speed**: Fast
 - **Fee Structure**: Competitive for EVM, higher for Solana
@@ -159,7 +159,6 @@ Based on the analysis, an effective crypto bridge should:
 ## Special Note on Solana Integration
 Solana bridging remains a work in progress across platforms, with common challenges including:
 - Wallet compatibility issues (especially with Solflare)
-- Higher gas fees compared to EVM chains
 - Inconsistent user experience
 - Limited wallet support
 
