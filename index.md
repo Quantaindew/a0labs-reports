@@ -12,7 +12,7 @@
 
 ## Bridge Analysis
 
-### LayerSwap
+### [LayerSwap](https://layerswap.io/)
 - **Strengths**
   - Simple, intuitive user interface 
   - Comprehensive progress tracking 
@@ -22,7 +22,7 @@
   - Limited token selection (mainly native tokens, USDC, USDT) 
 - **Speed**: Moderate to slow 
 
-### Portal (Wormhole-powered)
+### [Portal (Wormhole-powered)](https://www.portalbridge.com/)
 - **Strengths**
   - Very efficient for EVM chains 
   - Fast transaction speeds
@@ -34,7 +34,7 @@
 - **Speed**: Fast 
 - **Fee Structure**: Competitive for EVM, higher for Solana 
 
-### Mayan (Wormhole-powered)
+### [Mayan (Wormhole-powered)](https://mayan.finance/)
 - **Strengths**
   - Fastest transaction speeds in testing 
   - Clean user interface 
@@ -44,7 +44,7 @@
 - **Speed**: Very Fast 
 - **Overall Experience**: Works for what it says 
 
-### Hop
+### [Hop](https://hop.exchange/)
 - **Strengths**
   - Responsive interface 
   - Excellent UI design 
@@ -53,7 +53,7 @@
 - **Speed**: Good 
 - **User Experience**: Polished 
 
-### Orbiter Finance
+### [Orbiter Finance](https://orbiter.finance/)
 - **Strengths**
   - Extensive network coverage 
   - Fast transaction speeds 
@@ -61,7 +61,7 @@
   - Highest gas fees among tested bridges 
 - **Speed**: Fast 
 
-### Squid Bridge
+### [Squid Bridge](https://app.squidrouter.com/)
 - **Strengths**
   - One of the highest transactions by volume in a month among the tested bridges, showing trust and reliability 
   - Feature-rich platform 
@@ -71,7 +71,7 @@
   - Interface needs refinement 
 - **Speed**: Variable 
 
-### Stargate
+### [Stargate](https://stargate.finance/bridge)
 - **Strengths**
   - Sleek interface 
   - Comprehensive information display for easy swapping and knowing about the status of your transaction 
@@ -83,7 +83,7 @@
 - **Speed**: Variable (user-controlled) 
 - **User Experience**: Highly intuitive 
 
-### Defiway
+### [Defiway](https://defiway.com/bridge/)
 - **Strengths**
   - Clean, functional UI 
   - Good network availability 
@@ -120,12 +120,11 @@ Solana bridging remains a work in progress across platforms, with common challen
 ### Simplicity
 1. LayerSwap 
 2. Hop 
-3.  A0 Zero Knowledge EVM Bridge
 3. Portal 
 4. Defiway 
 5. Mayan 
 6. Stargate 
-8. Squid 
+7. Squid 
 
 ### Transaction Speed
 1. Mayan 
@@ -133,30 +132,26 @@ Solana bridging remains a work in progress across platforms, with common challen
 3. Portal 
 4. Defiway 
 5. LayerSwap 
-7. Squid 
-8. Stargate 
-6. EVM-to-AO Bridge
+6. Squid 
+7. Stargate 
 
 ### User Interface (Based on functionality, ease of use and design)
 1. LayerSwap 
-2. EVM-to-AO Bridge
-3. Stargate 
-4. Defiway 
-5. Squid 
-6. Hop 
-7. Mayan
-8. Portal 
-
+2. Stargate 
+3. Defiway 
+4. Squid 
+5. Hop 
+6. Mayan
+7. Portal 
 
 ### Gas Fees (Most Economical to Highest)
 1. Mayan (~0.016 USDC) 
 2. Squid (0.023358 USDC) 
 3. LayerSwap (0.075528 USDC) 
 4. Defiway (0.159 USDC) 
-- *EVM-to-AO Bridge:Lowest fees among all the bridges tested. 
 
 ### Security & Privacy
-1. EVM-to-AO Bridge (ZK proofs) 
+1. A0 Zero Knowledge EVM Bridge (ZK proofs) 
 Eliminating Trust Assumptions: No validators, no multisig—just math.
 Enabling Private Cross-Chain Interactions: A rarity in today’s transparent bridges.
 
@@ -195,7 +190,6 @@ Based on the analysis, an effective crypto bridge should:
 
 ## Special Note on Interoperability
 
-The **EVM-to-AO Bridge** demonstrates how cutting-edge interoperability can be achieved through: 
+The **A0 Zero Knowledge EVM Bridge** demonstrates how cutting-edge interoperability can be achieved through: 
 - **ZK-Proof Validation**: Ensures trustless transfers without relying on third-party validators 
-- **RISC-Z Optimization**: Enhances execution efficiency for EVM contracts on non-EVM chains like AO 
-
+- **RISC-Z Optimization**: Enhances execution efficiency for EVM contracts on non-EVM chains like AO
