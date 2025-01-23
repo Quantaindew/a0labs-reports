@@ -62,21 +62,20 @@
 
 ### Squid Bridge
 - **Strengths**
-  - High transaction volume capacity
+  - One of the highest transactions by volume in a month among the tested bridge, showing rust and reliability.
   - Feature-rich platform
   - Engaging design with animations
 - **Limitations**
   - Buggy UI elements
   - Interface needs refinement
 - **Speed**: Variable
-- **Fee Structure**: Standard for EVM chains
+- **Fee Structure**: Nominal as before
 
 ### Stargate
 - **Strengths**
-  - Very intuitive interface
-  - Comprehensive information display for easy swapping
+  - Sleek interface
+  - Comprehensive information display for easy swapping and knowing about the status of your transaction
   - Flexible transaction modes (Fast and Economy)
-  - Post-approval speed adjustment option
 - **Notable Feature**: Dual-mode transactions
   - Economy mode for gas savings
   - Fast mode for quicker transfers
@@ -88,7 +87,7 @@
 - **Strengths**
   - Clean, functional UI
   - Good network availability
-  - Refueling capability
+  - Refueling capability to ensure gas fee availibility.
 - **Limitations**
   - No time estimates
 - **Speed**: Above average
@@ -126,6 +125,7 @@
 
 
 Gas Fees (Most Economical to Highest)
+(Given below are the gas prices for same amount of value being transferred)
 
 1. Mayan (~0.016 USDC)
 2. Squid (0.023358 USDC)
