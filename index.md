@@ -44,7 +44,7 @@
 
 ### [Orbiter Finance](https://orbiter.finance/)
 - **Strengths**
-  - Extensive network coverage allowing a dozens of chains and tokens making it a great experience to bridge anything
+  - Extensive network coverage allowing dozens of chains and tokens making it a great experience to bridge anything
 - **Limitations**
   - Highest gas fees among tested bridges 
 - **Speed**: One of the fastest among the tested bridges
@@ -100,7 +100,6 @@ Solana bridging remains a work in progress across platforms, with common challen
   - Proof generation may add marginal latency for complex transactions 
 - **Speed**: Fast
 - **Security**: Highest (ZK-proof validated) making it the most secure bridge tested
-
 ---
 
 ## Rankings
@@ -160,7 +159,7 @@ Based on the analysis, an effective crypto bridge should
    - Advanced cryptographic security (e.g., ZK proofs) 
 
 3. **Maintain Balance**
-   - Reasonable fees 
+   - Reasonable fees
    - Acceptable transaction speeds 
    - Adequate network coverage 
 
@@ -175,8 +174,3 @@ Based on the analysis, an effective crypto bridge should
 
 ---
 
-## Special Note on Interoperability
-
-The **A0 Zero Knowledge EVM Bridge** demonstrates how cutting-edge interoperability can be achieved through: 
-- **ZK-Proof Validation**: Ensures trustless transfers without relying on third-party validators 
-- **RISC-Z Optimization**: Enhances execution efficiency for EVM contracts on non-EVM chains like AO
